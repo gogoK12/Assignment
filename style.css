@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=lato&display=swap'); 
+
+body{
+    font-family: 'lato',sans-serif;
+    color:#222;
+    margin: 0;
+    background-color: #333;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color:#fafafa ;
+    
+    min-height:100vh;
+    
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+}
+.container-show-nav{
+transform: rotate(-20deg);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .nav-bar{
+ 
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
+  
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
